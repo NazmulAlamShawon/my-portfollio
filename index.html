@@ -15,10 +15,11 @@
       
       
     <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
 </head>
 
 <body>
-    <header>
+    <header class="headers">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -30,7 +31,7 @@
                     <a class="navbar-brand" href="#">shawonwebdev</a>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link " aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">About</a>
@@ -52,11 +53,11 @@
     <main>
         <!-- introduce section -->
         <section>
-            <h2 class="text-center">Introduce My-self</h2>
+            <h2 class="text-center hero-anime">Introduce My-self</h2>
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
-                        <div class="card p-3 m-3 shadow-lg p-3 mb-5 bg-white rounded">
+                        <div class="card p-3 m-3 shadow-lg p-3 mb-5 bg-white rounded card-anim">
                             <h2> Nazmul Alam</h2>
                             <h3>Junior Front End developer</h3>
                             <p>hi My name's nazmul alam and i am junior front end devdeloper</p>
@@ -66,7 +67,7 @@
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6"> <img src="images/thenanobel-programming-17.01-inkscape-svg.png"
-                            alt="" class="img-fluid mt-5 p-3"></div>
+                            alt="" class="img-fluid mt-5 p-3 img-anim"></div>
                 </div>
             </div>
         </section>
@@ -74,11 +75,11 @@
         <!--  about myself seection start -->
         <section id="about" class=" about-section">
             <div class="text-box">
-                <h2 class="text-center mb-5">About My-self</h2>
+                <h2 class="text-center mb-5 about-anime">About My-self</h2>
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-md-6 text-anime">
                         <h2> I am a Front End Developer </h2>
                         <p>My name's Nazmul Alam . I am a junior front end developer. I love coding, Because it's my
                             passion and also my dream career.</p>
@@ -86,20 +87,20 @@
                         </p>
                     </div>
                     <div class="col-sm-12 col-md-6">
-                        <h3> Junior Front End Developer</h3>
-                        <div class="contact d-flex align-items-center">
+                        <h3 class="top-anime"> Junior Front End Developer</h3>
+                        <div class="contact d-flex align-items-center icon-anime1">
                             <img src="images/badge_black_18dp (1).svg" alt="" class=" m-2">
                             <p class="m-2"> Nazmul Alam</p>
                         </div>
-                        <div class="contact d-flex align-items-center">
+                        <div class="contact d-flex align-items-center icon-anime2">
                             <img src="images/phone_black_18dp.svg" alt="" class=" m-2">
                             <p class="m-2">01316077208</p>
                         </div>
-                        <div class="contact d-flex align-items-center">
+                        <div class="contact d-flex align-items-center icon-anime3">
                             <img src="images/home_black_18dp.svg" alt="" class=" m-2">
                             <p class="m-2"> 9. sahid engneer nurul haque road,kushtia, Banglades</p>
                         </div>
-                        <div class="contact d-flex align-items-center">
+                        <div class="contact d-flex align-items-center icon-anime4">
                             <img src="images/email_black_18dp.svg" alt="" class=" m-2">
                             <p class="m-2"> shawonkst17@gmail.com</p>
                         </div>
@@ -257,6 +258,7 @@
 
     <script src="/js/index.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    
 </body>
 
 </html>
